@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+backend/venv/
+.pytest_cache/
+
+# Local MVP state (contains user-entered settings and decisions)
+backend/data/*.db
+backend/data/*.db-*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.tsbuildinfo
+
+# Local tooling
+.DS_Store
+*.log
+
+frontend/.verification/
